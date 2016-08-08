@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <p style="text-align:center;">
+            <small>
+                Use different gestures to trigger corresponding transitions.
+            </small>
+        </p>
+    </div>
+    <div class="row blk" style="background-image:url(img/tap.svg)"><span>Tap:Flip</span></div>
+    <div class="row blk" style="background-image:url(img/pan.svg)"><span>Swipe:Slide</span></div>
+    <div class="row blk" style="background-image:url(img/press.svg)"><span>Press:Background-color</span></div>
+    <div class="row blk" style="background-image:url(img/pinch.svg)"><span>Pinch:Fade</span></div>
+</div><!-- end of container -->
+<div class="cover"
+    hm-drag-left="swipeLeft()"
+    hm-drag-right="swipeRight()"
+    hm-drag-up="swipeUp()"
+    hm-drag-down="swipeDown()"
+    hm-tap="tap()"
+    hm-pinch-in="pinchIn()"
+    hm-pinch-out="pinchOut()"
+></div>
